@@ -213,9 +213,9 @@ async function createPDFBlob(){
   const number = (document.getElementById('number').value||'');
 
   // Replaced Tamil text with English placeholders/translations for standard font compatibility
-  const headerText = ' DYFI — TNPSC Signature Campaign';
-  const petitionTextRaw = "Will the lives of Tamil Nadu's youth be uplifted? Demanding the filling of 1 Lakh vacant TNPSC posts before the assembly elections, DYFI is organizing a one-day waiting protest across Tamil Nadu on December 1st.";
-  const contentEnglish = `DYFI Signature Campaign demanding the filling of 1 Lakh vacant posts through TNPSC exams. Show your support. ${petitionTextRaw.replace(/\s{2,}/g, ' ').trim()}`;
+  const headerText = ' TNPSC — 1 Lakh Vacancies: Signature Campaign';
+  const petitionTextRaw = " This campaign is part of our larger commitment to the noble goal of “education and employment for all.” Our movement has been continuously fighting for the employment rights of the youth of Tamil Nadu. We have earned the trust of young people by carrying out several major state-wide campaigns, including a 4,000-kilometer bicycle awareness journey, long foot marches, and rallies toward both the Legislative Assembly and Parliament—achieving many significant successes. At present, unemployment is steadily rising in Tamil Nadu. According to the 2024 report, there are 7,45,000 vacant posts across various government departments—including Education, Health, Police, and Transport. Filling all these vacancies at once may not be immediately possible. This raises an important question: Will the lives of Tamil Nadu’s youth be uplifted? Therefore, before the upcoming Assembly elections, the Tamil Nadu government must at least conduct a TNPSC examination to fill 1 lakh vacant posts and create essential job opportunities for the youth of the state.By raising this demand and working toward the upliftment of Tamil Nadu’s youth, DYFI is organizing a one-day waiting movement across Tamil Nadu on 19th December. We sincerely request everyone to participate in this statewide protest and help ensure the success of our demand. ";
+  const contentEnglish = `Dear comrades, greetings.The DYFI is conducting a Signature Campaign demanding that the 1 Lakh vacant TNPSC posts be filled through TNPSC examinations. ${petitionTextRaw.replace(/\s{2,}/g, ' ').trim()}`;
 
   // Load background/logo image
   const bgUrl = 'https://tndyfi.github.io/Signature/images/previews.png';
